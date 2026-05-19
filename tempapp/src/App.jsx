@@ -122,7 +122,7 @@ export default function _0xApp() {
     _doc.setFontSize(8);
     _doc.setFont("helvetica", "normal");
     _doc.setTextColor(220, 200, 255);
-    _doc.text("AI Powered • Productivity Planner", M + 22, 29);
+    _doc.text("Productivity Planner", M + 22, 29);
 
     // Data Pill
     _doc.setFillColor(255, 255, 255);
@@ -372,7 +372,7 @@ export default function _0xApp() {
               <h1 style={{ fontSize: 30, fontWeight: 800, lineHeight: 1.1, background: "linear-gradient(135deg,#7C3AED,#EC4899,#06B6D4)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundSize: "200% 100%", animation: "_sh 3s linear infinite" }}>Smart To Do List</h1>
             </div>
           </div>
-          <p style={{ color: "#9CA3AF", fontSize: 14, maxWidth: 380, margin: "0 auto", fontWeight: 400 }}>Il tuo assistente AI per organizzare ogni giornata con intelligenza</p>
+          <p style={{ color: "#9CA3AF", fontSize: 14, maxWidth: 380, margin: "0 auto", fontWeight: 400 }}>Il tuo assistente per organizzare ogni tua giornata! </p>
         </div>
 
         <div className="sd1" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginBottom: 24 }}>
@@ -430,14 +430,14 @@ export default function _0xApp() {
               <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 18 }}>
                 <div style={{ width: 36, height: 36, borderRadius: 12, background: "linear-gradient(135deg,#7C3AED,#06B6D4)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, boxShadow: "0 4px 14px rgba(124,58,237,0.2)" }}>✦</div>
                 <div>
-                  <div style={{ fontSize: 14, fontWeight: 700, color: "#1F2937" }}>AI Daily Suggestions</div>
+                  <div style={{ fontSize: 14, fontWeight: 700, color: "#1F2937" }}>Daily Suggestions</div>
                   <div style={{ fontSize: 11, color: "#9CA3AF" }}>Generato per questo giorno</div>
                 </div>
               </div>
               {_0xAL ? (
                 <div style={{ textAlign: "center", padding: "24px 0" }}>
                   <div style={{ width: 34, height: 34, border: "3px solid rgba(196,181,253,0.3)", borderTopColor: "#7C3AED", borderRadius: "50%", animation: "_sp 0.8s linear infinite", margin: "0 auto 12px" }} />
-                  <div style={{ fontSize: 12, color: "#A78BFA", fontWeight: 500 }}>Generando suggerimenti AI...</div>
+                  <div style={{ fontSize: 12, color: "#A78BFA", fontWeight: 500 }}>Generando suggerimenti...</div>
                 </div>
               ) : (
                 <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -473,7 +473,7 @@ export default function _0xApp() {
                   <div style={{ textAlign: "center", padding: "44px 20px" }}>
                     <div style={{ fontSize: 44, marginBottom: 14 }}>✨</div>
                     <div style={{ fontSize: 14, color: "#9CA3AF", fontWeight: 500 }}>Nessuna attività per questo giorno</div>
-                    <div style={{ fontSize: 12, color: "#C4B5FD", marginTop: 4 }}>Aggiungi un task o aspetta i suggerimenti AI</div>
+                    <div style={{ fontSize: 12, color: "#C4B5FD", marginTop: 4 }}>Aggiungi un task o aspetta i suggerimenti</div>
                   </div>
                 )}
                 {_0xCT.map((_t, _i) => (
@@ -515,7 +515,7 @@ export default function _0xApp() {
                     <div style={{ flex: 1, padding: "14px 24px", borderRadius: 13, textAlign: "center", background: "rgba(16,185,129,0.08)", border: "1.5px solid rgba(16,185,129,0.28)", color: "#059669", fontSize: 14, fontWeight: 700 }}>✓ Lista confermata!</div>
                   )}
                   {_0xPR && (
-                    <button className="ba" onClick={_0xPDF} style={{ flex: 1, padding: "14px 24px", fontSize: 14, minWidth: 160 }}>📄 Crea PDF To Do List</button>
+                    <button className="ba" onClick={_0xPDF} style={{ flex: 1, padding: "14px 24px", fontSize: 14, minWidth: 160 }}>📄 Crea PDF To Do List di oggi</button>
                   )}
                 </div>
               )}
@@ -528,7 +528,7 @@ export default function _0xApp() {
                   {_0xPC >= 100 ? "Giornata completata! Sei incredibile! 🎉" : _0xPC >= 50 ? "Ottimo lavoro! Sei a metà strada! 💪" : _0xPC > 0 ? "Stai andando alla grande! Continua così! ⚡" : "Inizia la tua giornata produttiva! ✨"}
                 </div>
                 <div style={{ fontSize: 11, color: "#9CA3AF", marginTop: 3 }}>
-                  AI Smart To Do List • {new Date().toLocaleDateString("it-IT", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
+                Smart To Do List • {new Date().toLocaleDateString("it-IT", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
                 </div>
               </div>
             </div>
