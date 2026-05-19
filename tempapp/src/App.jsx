@@ -112,7 +112,6 @@ export default function _0xApp() {
     _doc.setTextColor(109, 40, 217);
     _doc.setFontSize(10);
     _doc.setFont("helvetica", "bold");
-    _doc.text("AI", M + 8, 27.5, { align: "center" });
 
     // Titolo
     _doc.setTextColor(255, 255, 255);
