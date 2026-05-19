@@ -240,7 +240,7 @@ export default function _0xApp() {
         _doc.setTextColor(124, 58, 237);
         _doc.setFontSize(6);
         _doc.setFont("helvetica", "bold");
-        _doc.text("✦ AI", _bx + 8, _y + 4.2, { align: "center" });
+        _doc.text("✦", _bx + 8, _y + 4.2, { align: "center" });
       }
 
       if (_isDone) {
@@ -279,7 +279,7 @@ export default function _0xApp() {
     _doc.setTextColor(124, 58, 237);
     _doc.setFontSize(7);
     _doc.setFont("helvetica", "bold");
-    _doc.text("AI Smart To Do List", M + 20, H - 6);
+    _doc.text("Smart To Do List", M + 20, H - 6);
     _doc.setTextColor(156, 163, 175);
     _doc.setFont("helvetica", "normal");
     _doc.text(`Generato il ${new Date().toLocaleDateString("it-IT")}`, W / 2, H - 6, { align: "center" });
@@ -368,7 +368,6 @@ export default function _0xApp() {
           <div style={{ display: "inline-flex", alignItems: "center", gap: 14, marginBottom: 14 }}>
             <div style={{ width: 52, height: 52, borderRadius: 16, background: "linear-gradient(135deg,#7C3AED,#EC4899)", display: "flex", alignItems: "center", justifyCenter: "center", fontSize: 26, boxShadow: "0 8px 28px rgba(124,58,237,0.3)", justifyContent: "center" }}>⚡</div>
             <div style={{ textAlign: "left" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, color: "#A78BFA", textTransform: "uppercase", fontWeight: 700 }}>AI Powered</div>
               <h1 style={{ fontSize: 30, fontWeight: 800, lineHeight: 1.1, background: "linear-gradient(135deg,#7C3AED,#EC4899,#06B6D4)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundSize: "200% 100%", animation: "_sh 3s linear infinite" }}>Smart To Do List</h1>
             </div>
           </div>
